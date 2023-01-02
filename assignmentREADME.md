@@ -20,7 +20,7 @@ Your task is to write JavaScript code that analyzes the records to calculate eac
 
 * The average of the **changes** in Profit/Losses over the entire period.
   * You will need to track what the total change in profits are from month to month and then find the average.
-  * (`Total/Number of months`)
+  * (`Total changes/Number of months`) 
 
 * The greatest increase in profits (date and amount) over the entire period.
 
@@ -31,11 +31,23 @@ When you open your code in the browser your resulting analysis should look simil
   ```text
   Financial Analysis
   ----------------------------
-  Total Months: 25
-  Total: $2561231
-  Average  Change: $-2315.12
-  Greatest Increase in Profits: Feb-2012 ($1926159)
-  Greatest Decrease in Profits: Sep-2013 ($-2196167)
+  Total Months: 86
+  Total: $38382578
+  Average  Change: $7803.48
+  Greatest Increase in Profits: Nov-2016: $795914
+  Greatest Decrease in Profits: Jul-2016: ($-1163797)
+  ```
+
+Updated results (slacked out)
+
+```text
+  Financial Analysis
+  ----------------------------
+  Total Months: 86
+  Total: $38382578
+  Average  Change: $7803.48 this includes the first month!
+  Greatest Increase in Profits: Feb-2012: $1926159 (current month - previous month)
+  Greatest Decrease in Profits: Sept-2013: $-2196167 )current month - previous month)
   ```
 
 Your final code should print the analysis to the console.
