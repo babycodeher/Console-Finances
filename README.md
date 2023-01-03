@@ -15,7 +15,7 @@ The results in the console shows:
 
 
 ### Screenshot of final result as shown in the console
-    ![Financial-analysis-console-result](https://user-images.githubusercontent.com/117525566/210445113-236ee517-6cd8-4d01-bc84-60cd323f7792.png)
+    ![Financial-analysis-console-result](https://github.com/babycodeher/Console-Finances/blob/main/Screenshot/Financial-analysis-console-result.png)
 
     
 
