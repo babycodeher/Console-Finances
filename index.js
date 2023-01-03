@@ -127,15 +127,12 @@ let profitDate = finances[1][0];
 let biggestProfitDecrease = 0;
 let lossDate = finances[1][0];
 
-
 for (let i = 1; i < finances.length; i++) {
     const[dates, amount] = finances[i];
     const[prevDate, prevAmount] = finances[i-1];
     const profitLoss = amount - prevAmount;
     
     
-
-    // console.log(profitLoss);
     
     if (profitLoss > biggestProfitIncrease){
         biggestProfitIncrease = profitLoss; 
@@ -146,10 +143,12 @@ for (let i = 1; i < finances.length; i++) {
         biggestProfitDecrease = profitLoss;
         lossDate = dates;
     }
- }
+}
 
-    console.log("Greatest Increase in Profit: $" + biggestProfitIncrease, profitDate);
-    console.log("Greatest Decrease in Profits: $" + biggestProfitDecrease, lossDate);
+console.log("Greatest Increase in Profit: $" + biggestProfitIncrease, profitDate);
+console.log("Greatest Decrease in Profits: $" + biggestProfitDecrease, lossDate);
+
+
 
 
 // The greatest increase in profits(date and amount) over the entire period.
