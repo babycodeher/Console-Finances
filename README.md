@@ -1,4 +1,4 @@
-# Financial Record Analysis
+# Console Finances
 
 ## Description
 This financial dataset analysis was completed to test my knowledge of JavaScript as a front end web development bootcamp student. The console contains results from analysing the financial records of a company's profit and loss dataset between January 2010 and February 2017.
@@ -15,7 +15,7 @@ The results in the console shows:
 
 
 ### Screenshot of final result as shown in the console
-![Final result screenshot](/Screenshot/Financial-analysis-console-result.png)
+
 
 ### Link to the console
     https://babycodeher.github.io/Console-Finances/
