@@ -15,7 +15,7 @@ The results in the console shows:
 
 
 ### Screenshot of final result as shown in the console
-
+![Finalresultscreenshot](/Screenshot/Financial-analysis-console-result.png)
 
 ### Link to the console
     https://babycodeher.github.io/Console-Finances/
